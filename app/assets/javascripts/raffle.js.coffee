@@ -5,7 +5,11 @@
 angular.module('Raffler', []).controller "RaffleCtrl", ($scope) ->
 
   $scope.entries = [
-    {name: "Larry"}
-    {name: "Curly"}
-    {name: "Moe"}
+    {name: "Trumpy"}
+    {name: "Stumpy"}
+    {name: "Clumpy"}
   ]
+
+  $scope.addEntry = ->
+  	$scope.entries.push($scope.newEntry)
+  	$scope.newEntry = {}
