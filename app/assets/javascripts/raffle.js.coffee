@@ -5,9 +5,9 @@
 angular.module('Raffler', []).controller "RaffleCtrl", ($scope) ->
 
   $scope.entries = [
-    {name: "Trumpy"}
-    {name: "Stumpy"}
-    {name: "Clumpy"}
+    {name: "Johnny G."}
+    {name: "Susie Q."}
+    {name: "Dallas Von Blauchester III"}
   ]
 
   $scope.addEntry = ->
