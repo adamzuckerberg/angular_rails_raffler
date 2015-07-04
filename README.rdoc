@@ -1,1 +1,1 @@
-**A simple AngularJS + Rails application based on Railscasts video without data persistence.
+** A simple AngularJS Rails application for selecting a random presidential winner for the 2016 Presidential Election.  The app is based on a Railscasts lottery tutorial.

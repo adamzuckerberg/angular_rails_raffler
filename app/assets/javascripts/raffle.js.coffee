@@ -5,9 +5,13 @@
 angular.module('Raffler', []).controller "RaffleCtrl", ($scope) ->
 
   $scope.entries = [
-    {name: "Johnny G."}
-    {name: "Susie Q."}
-    {name: "Dallas Von Blauchester III"}
+    {name: "Donald Trump"}
+    {name: "Hillary Clinton"}
+    {name: "Bernie Sanders"}
+    {name: "Elizabeth Warren"}
+    {name: "Jeb Bush"}
+    {name: "Chris Christie"}
+    {name: "Bobby Jindal"}
   ]
 
   $scope.addEntry = ->
